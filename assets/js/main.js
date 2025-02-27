@@ -2,7 +2,7 @@
 *
 * -----------------------------------------------------------------------------
 *
-* Template : Echooling - Online Education HTML Template
+* Template : Codestar & Phenikaa
 * Author : reacthemes
 * Author URI : https://reactheme.com/
 

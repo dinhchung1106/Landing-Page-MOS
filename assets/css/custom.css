@@ -5,3 +5,11 @@
 .about__area.about__area_one .about__content {
     padding-top: 0px;
 }
+
+.react_populars_topics .container {
+    max-width: 1320px;
+}
+
+.react_populars_topics.react_populars_topics_about .react__title__section-all {
+    padding-top: 30px;
+}
