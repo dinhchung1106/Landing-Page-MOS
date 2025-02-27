@@ -17,3 +17,17 @@
 .footer-address .address svg {
     width: 38px !important;
 }
+
+.events-section .event-item .date .day {
+    font-size: 26px;
+}
+
+
+.events-section .event-item {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.events-section .events-section-title {
+    margin-bottom: 20px;
+}
