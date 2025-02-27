@@ -13,3 +13,7 @@
 .react_populars_topics.react_populars_topics_about .react__title__section-all {
     padding-top: 30px;
 }
+
+.footer-address .address svg {
+    width: 38px !important;
+}
