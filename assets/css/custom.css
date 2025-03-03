@@ -31,3 +31,16 @@
 .events-section .events-section-title {
     margin-bottom: 20px;
 }
+
+.about__area h2 {
+	font-size: 44px;
+}
+
+.react-footer .footer-top .footer-widget.footer-widget-2 {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.course-section .course-inner .course-contents {
+	padding: 0px;
+}
