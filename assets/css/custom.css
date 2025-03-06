@@ -44,3 +44,30 @@
 .course-section .course-inner .course-contents {
 	padding: 0px;
 }
+
+.react-clients.home-testimonial {
+    background: url(assets/images/testimonial/bg.jpg) center top no-repeat !important;
+}
+
+.student_satisfaction-section {
+    padding-top: 0px;
+}
+
+.hero4__area .hero4__image {
+    visibility: hidden;
+}
+
+.student_satisfaction-section .author-sec {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.student_satisfaction-section .count__area2 .star-custom .text em {
+    color: #FFA439;
+    font-size: 37px;
+    margin-left: 1px;
+}
+
+.react__loader_logo img {
+    width: 75px;
+}
