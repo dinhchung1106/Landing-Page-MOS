@@ -29,7 +29,7 @@
 }
 
 .events-section .events-section-title {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .about__area h2 {
@@ -51,6 +51,7 @@
 
 .student_satisfaction-section {
     padding-top: 0px;
+    padding-bottom: 15px;
 }
 
 .hero4__area .hero4__image {
@@ -124,7 +125,77 @@
 }
 
 #learning-path p {
-    font-size: 19px;
+    font-size: 18px;
     color: #777;
     line-height: 30px;
+}
+
+#learning-path .accordion-body ul {
+	padding: 0px 37px;
+}
+
+#learning-path .accordion-body ul li {
+    border-bottom: 1px solid rgba(2, 3, 52, .078);
+    color: #4b4c57;
+    padding: 12px 0;
+}
+#learning-path .accordion-body ul li svg {
+	width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    position: relative;
+    top: -2px;
+}
+
+.student_satisfaction-section {
+	background: none !important;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.home-seven-btn a {
+    animation: blink 1s infinite;
+}
+
+.student_satisfaction-section .owl-carousel .owl-nav [class*=owl-] {
+	background: #ebe6e6;
+}
+
+.student_satisfaction-section .owl-carousel .owl-nav [class*=owl-].owl-prev,
+.student_satisfaction-section .owl-carousel .owl-nav [class*=owl-].owl-next
+ {
+	top: 50px;
+}
+
+.about2__area ul li,
+.accordion__area .accordion__wrapper-1 p
+ {
+	font-size: 18px;
+}
+
+#learning-path.accordion__area .accordion .accordion-header .accordion-button,
+#learning-path.accordion__area.accordion__area .accordion-button:hover
+ {
+	font-size: 20px !important;
+}
+
+#learning-path .accordion-button {
+	display: flex;
+    justify-content: space-between;
+}
+
+#learning-path .accordion-button svg {
+	width: 17px;
+    height: 17px;
+    margin-right: 3px;
+    position: relative;
+    top: -2px;
+}
+
+.react-header .logo {
+	margin-bottom: 10px;
 }
