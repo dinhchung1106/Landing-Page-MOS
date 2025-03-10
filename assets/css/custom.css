@@ -32,8 +32,14 @@
     margin-bottom: 0px;
 }
 
-.about__area h2 {
-	font-size: 44px;
+.about__area h2,
+.react__title__section.react__title__section2 h2,
+.accordion__area .accordion__wrapper-1 h2,
+.section-title-area-seven .section-title,
+.events-section .events-section-title .events-title,
+.react__title__section-all h2
+ {
+	font-size: 40px;
 }
 
 .react-footer .footer-top .footer-widget.footer-widget-2 {
@@ -198,4 +204,8 @@
 
 .react-header .logo {
 	margin-bottom: 10px;
+}
+
+.events-section .events-section-title .events-title {
+	font-weight: 700;
 }
