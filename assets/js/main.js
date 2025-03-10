@@ -60,12 +60,24 @@
     wow.init();
   }
 
-  if ($('.counter').length) {
-    $('.counter').counterUp({
-      delay: 10,
-      time: 2000
+  // if ($('.counter').length) {
+  //   $('.counter').counterUp({
+  //     delay: 10,
+  //     time: 2000
+  //   });
+  // }
+
+  $('.stat-number').each(function () {
+    var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
+    $(this).prop('Counter', 0).animate({
+       Counter: $(this).text()
+    }, {
+       duration: 3000,
+       step: function (func) {
+          $(this).text(parseFloat(func).toFixed(size));
+       }
     });
-  }
+ });
 
   // magnificPopup init
   var imagepopup = $('.image-popup');
