@@ -45,11 +45,11 @@
       e.preventDefault();
       let targetId = this.getAttribute('data-target');
       let targetElement = document.getElementById(targetId);
-      let menuHeight = document.querySelector('.menu-part').offsetHeight; // Lấy chiều cao menu
+      let menuHeight = document.querySelector('.menu-part').offsetHeight;
 
       if (targetElement) {
         window.scrollTo({
-          top: targetElement.offsetTop - menuHeight - 10, // Trừ chiều cao menu + thêm 10px margin
+          top: targetElement.offsetTop - menuHeight - 10,
           behavior: 'smooth'
         });
       }
@@ -89,7 +89,7 @@
     $(this).prop('Counter', 0).animate({
        Counter: $(this).text()
     }, {
-       duration: 3000,
+       duration: 8000,
        step: function (func) {
           $(this).text(parseFloat(func).toFixed(size));
        }
