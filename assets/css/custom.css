@@ -50,10 +50,6 @@
 	padding: 0px;
 }
 
-.react-clients.home-testimonial {
-    background: url(assets/images/testimonial/bg.jpg) center top no-repeat !important;
-}
-
 .student_satisfaction-section {
     padding-top: 0px;
     padding-bottom: 15px;
@@ -247,5 +243,19 @@
     }
     #about-us .about__title {
         margin-top: 15px;
+    }
+    .accordion__wrapper-1 h2.info_title {
+        font-size: 34px;
+    }
+
+    .accordion__wrapper1_mos {
+        font-size: 23px;
+    }
+
+    .accordion__wrapper {
+        padding-bottom: 15px;
+    }
+    .events-section {
+        padding-top: 25px;
     }
 }
