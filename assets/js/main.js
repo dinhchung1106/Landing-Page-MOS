@@ -40,6 +40,23 @@
     }
   });
 
+  document.querySelectorAll('.scroll-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      let targetId = this.getAttribute('data-target');
+      let targetElement = document.getElementById(targetId);
+      let menuHeight = document.querySelector('.menu-part').offsetHeight; // Lấy chiều cao menu
+
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - menuHeight - 10, // Trừ chiều cao menu + thêm 10px margin
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+
   /*-------------------------------------
       Parallax Sidebar
   -------------------------------------*/

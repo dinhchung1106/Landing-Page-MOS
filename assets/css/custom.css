@@ -22,7 +22,6 @@
     font-size: 26px;
 }
 
-
 .events-section .event-item {
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -73,10 +72,6 @@
     color: #FFA439;
     font-size: 37px;
     margin-left: 1px;
-}
-
-.react__loader_logo img {
-    /*width: 75px;*/
 }
 
 #react__circle_loader {
@@ -208,4 +203,49 @@
 
 .events-section .events-section-title .events-title {
 	font-weight: 700;
+}
+
+.react__title__section {
+    padding-bottom: 0px;
+}
+
+.student_satisfaction-section .count__area2 {
+    padding-top: 30px;
+}
+
+.banner-content {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 480px) {
+    .about__title-custom {
+        margin-top: 35px;
+    }
+    .react__shape__ab {
+        right: 2.5%;
+        top: 16%;
+        max-width: 32%;
+    }
+    .react-footer .footer-top .footer-widget.footer-widget-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #learning-path .accordion-body ul {
+        padding: 0px 10px;
+    }
+    #learning-path.accordion__area .accordion .accordion-header .accordion-button, #learning-path.accordion__area.accordion__area .accordion-button:hover {
+        font-size: 18px !important;
+    }
+    .accordion-header > button > span {
+        text-align: right;
+    }
+    #about-us .about__title {
+        margin-top: 15px;
+    }
 }
