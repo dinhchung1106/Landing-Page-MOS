@@ -219,6 +219,21 @@
     object-fit: contain;
 }
 
+.icon_check {
+    margin-right: 10px;
+    position: relative;
+    background: rgba(210, 9, 60, .1);
+    padding: 8px;
+    color: #3270fc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#course-information .accordion-button {
+    padding: 20px 11px !important;
+}
+
 @media only screen and (max-width: 480px) {
     .about__title-custom {
         margin-top: 35px;
