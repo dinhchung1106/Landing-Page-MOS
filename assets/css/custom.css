@@ -238,7 +238,7 @@
     #learning-path.accordion__area .accordion .accordion-header .accordion-button, #learning-path.accordion__area.accordion__area .accordion-button:hover {
         font-size: 18px !important;
     }
-    .accordion-header > button > span {
+    .accordion-header button span {
         text-align: right;
     }
     #about-us .about__title {
@@ -257,5 +257,8 @@
     }
     .events-section {
         padding-top: 25px;
+    }
+    #about-us {
+    	padding-top: 15px;
     }
 }
