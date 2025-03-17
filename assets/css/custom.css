@@ -76,7 +76,7 @@
 }
 
 #achievements img {
-	max-width: 70%;
+	max-width: 50%;
 }
 
 #achievements .item__inner {
@@ -169,7 +169,8 @@
 }
 
 .about2__area ul li,
-.accordion__area .accordion__wrapper-1 p
+.accordion__area .accordion__wrapper-1 p,
+.about__area.about__area_one .about__paragraph
  {
 	font-size: 18px;
 }
@@ -231,7 +232,18 @@
 }
 
 #course-information .accordion-button {
-    padding: 20px 11px !important;
+    padding: 6.8px 11px !important;
+}
+
+.react-menus > li > a {
+    padding: 32px 10px 32px 10px;
+}
+.react_populars_topics.react_populars_topics2 .item__inner h3 a {
+    font-size: 18px;
+}
+
+.about__area.about__area_one .about__paragraph {
+    line-height: 25px;
 }
 
 @media only screen and (max-width: 480px) {
