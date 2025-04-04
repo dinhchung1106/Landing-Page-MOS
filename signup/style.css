@@ -16047,6 +16047,16 @@ form .input-label {
 @media only screen and (max-width: 575px) {
   .fxt-template-layout34 .fxt-qr-code img {
     padding: 5px;
+    width: 100%;
+  }
+  .fxt-template-layout34 .fxt-animated-img {
+    top: 81%;
+  }
+  .fxt-template-layout34 .fxt-switcher-description1 {
+    max-width: 360px;
+  }
+  .fxt-template-layout34 .fxt-logo {
+    max-width: 50vw;
   }
 }
 .fxt-template-layout34 .fxt-form {
