@@ -3,9 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Codestar | Đăng ký ôn thi khóa MOS</title>
-    <meta name="description" content="">
+    <title>Codestar | Đăng ký tham gia sự kiện: AI - Bạn đồng hành cùng sinh viên</title>
+    <meta name="description" content="CodeStar Academy hướng đến việc mang lại môi trường học tập thực tế trong các khóa học: AWS, ISTQB, lập trình web, Laravel,Tester chuyên nghiệp, Nghề kiểm thử cho người mới">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="CodeStar Academy và Đại học Phenikaa hợp tác tổ chức đào tạo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/banner.png" />
+    <meta property="og:description" content="CodeStar Academy hướng đến việc mang lại môi trường học tập thực tế trong các khóa học: AWS, ISTQB, lập trình web, Laravel,Tester chuyên nghiệp, Nghề kiểm thử cho người mới" />
+    <link rel="icon" href="img/banner.png" sizes="16x16" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
@@ -19,9 +24,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- https://docs.google.com/spreadsheets/d/13MRE_k6830QvZv5XFMF64KQ-uiQulaxRdrt5iuNAtxE/edit?resourcekey=&gid=663384351#gid=663384351
-    https://docs.google.com/forms/d/1oYlH5smXkKQ8cWsadXK4gthcP-55ifDGyVcupOYW-Uk/edit
-    https://docs.google.com/forms/d/e/1FAIpQLSehLpNhqm1tWsx2vzoykqIQ92E240bGIYe4XNytxulWHQ6UeQ/viewform?usp=dialog -->
 </head>
 
 <body>
@@ -50,13 +52,14 @@
                                 <img src="img/figure/bg34-1.png" alt="Animated Image">
                             </div>
                         </div>
-                        <div class="fxt-transformX-L-50 fxt-transition-delay-3">
-                            <a href="#" class="fxt-logo"><img src="img/logo-34.png" alt="Logo"></a>
+                        <div class="fxt-transformX-L-50 fxt-transition-delay-3 logo-main">
+                            <a href="" class="fxt-logo"><img src="img/codestar.png" alt="Logo"></a>
+                            <a href="" class="fxt-logo logo-cfis"><img src="img/cfis.png" alt="Logo"></a>
                         </div>
                         <div class="fxt-transformX-L-50 fxt-transition-delay-5">
                             <div class="fxt-middle-content">
                                 <h1 class="fxt-main-title">ĐĂNG KÍ </h1>
-                                <div class="fxt-switcher-description1"> CHƯƠNG TRÌNH ÔN THI CHỨNG CHỈ TIN HỌC  MOS 2019 TẠI CODESTAR ACADEMY ❤️<a href="#" class="fxt-switcher-text ms-2"></a></div>
+                                <div class="fxt-switcher-description1">AI - ĐỒNG HÀNH CÙNG SINH VIÊN<a href="#" class="fxt-switcher-text ms-2"></a></div>
                             </div>
                         </div>
                         <div class="fxt-transformX-L-50 fxt-transition-delay-7">
@@ -84,7 +87,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="fb" class="input-label">Facebook</label>
-                                    <input type="url" id="fb" class="form-control" name="fb" placeholder="https://www.facebook.com/xxx" required>
+                                    <input type="text" id="fb" class="form-control" name="fb" placeholder="https://www.facebook.com/xxx" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="school" class="input-label">Trường học</label>
@@ -103,7 +106,7 @@
                                 <a href="https://www.youtube.com/@codestaracademy2237" target="_blank" title="google"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li class="fxt-apple">
-                                <a href="https://codestar.vn/" target="_blank" title="apple"><i class="fab fa-edge"></i></a>
+                                <a href="https://mos.codestar.vn/" target="_blank" title="apple"><i class="fab fa-edge"></i></a>
                             </li>
                             <li class="fxt-facebook">
                                 <a href="https://www.facebook.com/CodeStarAcademy" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -126,7 +129,6 @@
     <script src="js/main.js"></script>
 
     <script>
-        // Cấu hình Toast
         const Toast = Swal.mixin({
             toast: true,
             position: 'top-end',
@@ -160,20 +162,20 @@
                 });
                 return;
             }
-            if (!fb.startsWith('https://')) {
-                Toast.fire({
-                    icon: 'error',
-                    title: 'Vui lòng nhập URL Facebook hợp lệ'
-                });
-                return;
-            }
+            // if (!fb.startsWith('https://')) {
+            //     Toast.fire({
+            //         icon: 'error',
+            //         title: 'Vui lòng nhập URL Facebook hợp lệ'
+            //     });
+            //     return;
+            // }
             const formData = new FormData();
-            formData.append('entry.2082615130', f_name);
-            formData.append('entry.913770347', email);
-            formData.append('entry.1381275284', phone);
-            formData.append('entry.478270445', fb);
-            formData.append('entry.577666575', school);
-            fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSehLpNhqm1tWsx2vzoykqIQ92E240bGIYe4XNytxulWHQ6UeQ/formResponse', {
+            formData.append('entry.1615951359', f_name);
+            formData.append('entry.1609115630', email);
+            formData.append('entry.1123735103', phone);
+            formData.append('entry.2054086148', fb);
+            formData.append('entry.905710613', school);
+            fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfmcaq5P2djBkcOb1XWZUCCyhEUGbcKbg0SKeZbt5W16ALuCA/formResponse', {
                 method: 'POST',
                 body: formData,
                 mode: 'no-cors'
@@ -196,7 +198,4 @@
     </script>
 
 </body>
-
-
-<!-- Mirrored from /html/Codestar by ChungDD Website /3.x [XR&CO'2014], Thu, 03 Apr 2025 13:13:45 GMT -->
 </html>
