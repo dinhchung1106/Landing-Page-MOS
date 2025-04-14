@@ -15961,7 +15961,7 @@ form .input-label {
   max-width: 14vw;
 }
 .fxt-template-layout34 .fxt-main-title {
-  max-width: 280px;
+  max-width: 446px;
   width: 100%;
   font-size: 35px;
   font-weight: 700;
@@ -15986,7 +15986,7 @@ form .input-label {
 .fxt-template-layout34 .fxt-switcher-description1 {
   color: #363636;
   font-size: 20px;
-  max-width: 330px;
+  max-width: 490px;
   width: 100%;
   margin-bottom: 40px;
 }
@@ -16035,7 +16035,7 @@ form .input-label {
 }
 .fxt-template-layout34 .fxt-qr-code {
   display: inline-block;
-  max-width: 35vw;
+  max-width: 30vw;
 }
 .fxt-template-layout34 .fxt-qr-code img {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
@@ -16050,10 +16050,14 @@ form .input-label {
     width: 100%;
   }
   .fxt-template-layout34 .fxt-animated-img {
-    top: 81%;
+    top: 79%;
+  }
+  .fxt-template-layout34 .fxt-qr-code {
+    max-width: 37vw;
   }
   .fxt-template-layout34 .fxt-switcher-description1 {
     max-width: 360px;
+    font-size: 15px;
   }
   .fxt-template-layout34 .fxt-logo {
     max-width: 55vw;
